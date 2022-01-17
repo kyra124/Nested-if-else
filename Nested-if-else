@@ -1,0 +1,21 @@
+#Given a letter, k, perform the following conditional actions:
+#If k is odd, print Cool
+#If k is even and in the range of 3 to 9, print Not Cool
+#If k is even and in the range of 21 to 24, print Cool
+#If k is even and greater than 300, print Not Cool
+
+k = 200
+if k % 2 != 0.00:
+  if k % 2 == 0.00 and 3 < k > 9:
+    if k % 2 == 0.00 and 21 < k > 24:
+      if k % 2 == 0.00 and k > 300:
+        print('Not Cool')
+      else:
+        print('Cool')
+    else:
+      print('Not Cool')
+  else:
+    print('Cool')
+else: 
+  print('Not Cool')
+  
